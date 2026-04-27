@@ -1,59 +1,16 @@
-# Confeitaria Vitrine
+# React + Vite
 
-Projeto de vitrine virtual para confeitaria, desenvolvido como prestação de serviço e projeto extensionista de ADS.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Objetivo
-Criar um sistema web com:
-- área pública para apresentação da confeiteira e dos produtos
-- catálogo por categorias
-- carrossel de produtos
-- painel de detalhes do produto selecionado
-- botão de redirecionamento para o WhatsApp
-- área administrativa para gerenciamento de categorias, produtos e imagens
+Currently, two official plugins are available:
 
-## Fluxo principal do visitante
-1. Acessar o site
-2. Visualizar categorias e produtos
-3. Clicar em um produto do carrossel
-4. Ver detalhes completos abaixo
-5. Solicitar orçamento pelo WhatsApp
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Fluxo principal da administradora
-1. Fazer login no painel
-2. Cadastrar ou editar categorias
-3. Cadastrar ou editar produtos
-4. Enviar imagens
-5. Atualizar o catálogo do site
+## React Compiler
 
-## Organização sugerida no GitHub Project
-Status sugeridos:
-- Backlog
-- Próximo
-- Em andamento
-- Bloqueado
-- Em teste
-- Concluído
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Fases sugeridas:
-1. Estrutura e planejamento
-2. Área pública
-3. Catálogo interativo
-4. Área administrativa
-5. Persistência, testes e entrega
+## Expanding the ESLint configuration
 
-## Stack sugerida
-- React
-- React Router
-- CSS
-- Supabase ou Firebase
-- GitHub
-- Vercel
-
-## Primeira entrega técnica
-- estrutura do projeto
-- layout base
-- home
-- dados fixos de categorias e produtos
-- carrossel por categoria
-- detalhe dinâmico do produto
-- botão de WhatsApp
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
