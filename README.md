@@ -1,16 +1,75 @@
-# React + Vite
+# Confeitaria Vitrine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Vitrine virtual para uma confeitaria, criada como projeto em React para apresentar produtos, organizar o catalogo por categorias e facilitar o contato com clientes pelo WhatsApp.
 
-Currently, two official plugins are available:
+## Objetivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O sistema deve permitir que visitantes conhecam a confeitaria, naveguem pelos produtos disponiveis e solicitem orcamentos de forma simples. Tambem esta prevista uma area administrativa para gerenciar categorias, produtos e imagens.
 
-## React Compiler
+## Escopo previsto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Area publica com Home, Sobre e Contato.
+- Catalogo de produtos organizado por categorias.
+- Carrossel de produtos em cada categoria.
+- Detalhes do produto selecionado exibidos abaixo do carrossel.
+- Botao de WhatsApp com mensagem pronta.
+- Area administrativa com login.
+- Gerenciamento de categorias, produtos e imagens.
+- Persistencia real em etapa posterior.
 
-## Expanding the ESLint configuration
+## Tecnologias
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript
+- npm
+- ESLint
+- GitHub Actions
+
+## Estrutura inicial
+
+```txt
+src/
+  admin/       telas e componentes da area administrativa
+  assets/      imagens e recursos visuais
+  components/  componentes reutilizaveis
+  data/        dados iniciais de categorias e produtos
+  hooks/       hooks reutilizaveis
+  pages/       paginas publicas
+  services/    integracoes e servicos
+  utils/       funcoes auxiliares
+```
+
+## Como executar
+
+Instale as dependencias:
+
+```bash
+npm install
+```
+
+Inicie o ambiente de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+Gere a build de producao:
+
+```bash
+npm run build
+```
+
+Execute a verificacao de lint:
+
+```bash
+npm run lint
+```
+
+## Planejamento
+
+O planejamento de implementacao esta documentado em `docs/roadmap.md` e nas issues do repositorio. O projeto deve evoluir em etapas, respeitando o escopo definido para a vitrine publica, catalogo interativo, WhatsApp, area administrativa, persistencia e entrega final.
+
+## Status atual
+
+A base React com Vite ja foi criada e a estrutura inicial de pastas existe. As proximas etapas sao configurar as rotas principais, criar o layout base com Header e Footer e preencher os dados iniciais do catalogo.
