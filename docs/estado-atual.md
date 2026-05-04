@@ -6,11 +6,26 @@ Use este conteúdo como referência do que já existe, do que já foi concluído
 ## O que já existe
 - README.md
 - docs/roadmap.md
+- docs/contexto-projeto.md
+- docs/decisoes-tecnicas.md
 - docs/estado-atual.md
 - .github/workflows/ci.yml
 - GitHub Project organizado
 - milestones criadas
 - branch `main` protegida
+
+## Escopo atual resumido
+- Site-vitrine para confeitaria.
+- Não será e-commerce completo.
+- Não haverá exibição de preços no site público.
+- O fluxo comercial será por orçamento via WhatsApp.
+- Produtos serão organizados por categorias/grupos.
+- Cada categoria terá carrossel de produtos.
+- Ao clicar em um produto, o detalhe aparece abaixo do carrossel.
+- Produtos podem ter campos opcionais de sabores/opções e tamanhos.
+- Campos opcionais vazios não devem aparecer na tela.
+- Produtos podem ser marcados como destaque para aparecer na Home.
+- Área administrativa permitirá gerenciar categorias, produtos e imagens.
 
 ## O que já foi concluído
 - #11 Criar projeto React e estrutura inicial de pastas
@@ -31,6 +46,7 @@ Depois de concluir a #18, seguir esta ordem:
 3. #27 Criar carrossel horizontal de produtos por categoria
 4. #28 Criar painel de detalhes do produto selecionado
 5. #29 Criar botão de WhatsApp com mensagem dinâmica
+6. #41 Exibir produtos em destaque na Home
 
 ## Próxima sequência da área administrativa
 Depois do catálogo interativo:
