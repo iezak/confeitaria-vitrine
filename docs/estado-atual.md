@@ -13,4 +13,5 @@
 - #12 Configurar rotas principais da aplicação
 - #14 Criar layout base com Header e Footer
 - #15 Criar página Home com hero e destaques iniciais
-- #18 Criar arquivo de dados iniciais de categorias e produtos
+- #16 Criar página Sobre da confeiteira
+- #17 Criar página Contato com WhatsApp e Instagram
