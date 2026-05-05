@@ -38,7 +38,13 @@
 - A persistência não deve resultar em exibição pública de preço.
 
 ## Deploy
-- Provável deploy futuro na Vercel.
+- O deploy será feito na Cloudflare Pages.
+- O projeto será conectado ao repositório GitHub.
+- A branch `main` será usada como produção.
+- Pull requests e branches poderão gerar previews de validação.
+- Configuração esperada para React com Vite:
+  - Build command: `npm run build`
+  - Build output directory: `dist`
 - A URL final poderá usar domínio próprio se houver necessidade de apresentação profissional.
 
 ## Fluxo Git
