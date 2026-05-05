@@ -25,6 +25,9 @@ Use este conteúdo como referência do que já existe, do que já foi concluído
 - Produtos podem ter campos opcionais de sabores/opções e tamanhos.
 - Campos opcionais vazios não devem aparecer na tela.
 - Produtos podem ser marcados como destaque para aparecer na Home.
+- O visitante poderá montar uma lista de orçamento com múltiplos produtos.
+- A lista de orçamento não é carrinho de compras: não tem preço, pagamento, checkout ou frete.
+- A lista de orçamento serve para enviar uma única mensagem pelo WhatsApp com os produtos selecionados.
 - Área administrativa permitirá gerenciar categorias, produtos e imagens.
 
 ## O que já foi concluído
@@ -45,8 +48,9 @@ Depois de concluir a #18, seguir esta ordem:
 2. #26 Criar seção de categoria com filtro de produtos
 3. #27 Criar carrossel horizontal de produtos por categoria
 4. #28 Criar painel de detalhes do produto selecionado
-5. #29 Criar botão de WhatsApp com mensagem dinâmica
-6. #41 Exibir produtos em destaque na Home
+5. #43 Criar lista de orçamento com múltiplos produtos
+6. #29 Criar botão de WhatsApp com mensagem dinâmica
+7. #41 Exibir produtos em destaque na Home
 
 ## Próxima sequência da área administrativa
 Depois do catálogo interativo:

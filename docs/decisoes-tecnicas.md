@@ -4,7 +4,7 @@
 - React com Vite
 - Não usar Create React App
 - React Router para rotas
-- Componentização para Header, Footer, ProductCard, CategorySection, ProductCarousel, ProductDetails e WhatsappButton
+- Componentização para Header, Footer, ProductCard, CategorySection, ProductCarousel, ProductDetails, WhatsappButton e lista de orçamento
 
 ## Dados e catálogo
 - O catálogo será organizado por categorias.
@@ -16,6 +16,14 @@
 - Campos opcionais vazios não devem aparecer na interface.
 - Produtos podem ser marcados como destaque para aparecer na Home.
 - Produtos podem ter status ativo/inativo, se necessário.
+
+## Lista de orçamento
+- O visitante poderá adicionar mais de um produto a uma lista de orçamento.
+- A lista de orçamento não é carrinho de compras.
+- A lista não terá preços, pagamento, checkout ou cálculo de frete.
+- A lista serve apenas para gerar uma mensagem de WhatsApp com os produtos selecionados.
+- O visitante deverá conseguir remover produtos da lista antes de enviar.
+- O WhatsApp deve aceitar mensagem para um único produto ou para múltiplos produtos selecionados.
 
 ## Área administrativa
 - A área administrativa terá login.

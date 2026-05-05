@@ -6,7 +6,7 @@ Projeto extensionista de ADS e também prestação de serviço real.
 ## Ideia central
 Desenvolver uma vitrine virtual para uma confeiteira, com foco em apresentar os produtos de forma organizada e encaminhar o cliente para atendimento pelo WhatsApp.
 
-O site não será um e-commerce completo. Ele funcionará como uma vitrine digital: o cliente visualiza os produtos, conhece detalhes e solicita orçamento diretamente pelo WhatsApp.
+O site não será um e-commerce completo. Ele funcionará como uma vitrine digital: o cliente visualiza os produtos, conhece detalhes, monta uma lista de interesse para orçamento e solicita atendimento pelo WhatsApp.
 
 ## Escopo fechado da versão final
 - Home
@@ -15,6 +15,7 @@ O site não será um e-commerce completo. Ele funcionará como uma vitrine digit
 - Catálogo por categorias
 - Carrossel de produtos por categoria
 - Detalhe dinâmico do produto selecionado abaixo do carrossel
+- Lista de orçamento com múltiplos produtos
 - Botão de WhatsApp com mensagem pronta
 - Produtos em destaque na Home
 - Área admin com login
@@ -27,6 +28,8 @@ O site não será um e-commerce completo. Ele funcionará como uma vitrine digit
 ## Regra comercial importante
 - O site público não deve exibir preço.
 - O fluxo comercial será por orçamento via WhatsApp.
+- A lista de orçamento não é carrinho de compras.
+- Não haverá pagamento online, checkout ou cálculo de frete.
 - O cliente vê o produto, detalhes e opções disponíveis, mas combina preço, quantidade, data e personalização diretamente no WhatsApp.
 
 ## Campos de produto
@@ -61,8 +64,27 @@ Exemplos:
 7. Clica em um produto.
 8. Vê os detalhes completos abaixo do carrossel.
 9. Visualiza imagem, descrição, observações e, quando existirem, tamanhos e sabores/opções.
-10. Clica em “Pedir pelo WhatsApp” ou “Solicitar orçamento”.
-11. É encaminhado ao WhatsApp com mensagem pronta baseada no produto selecionado.
+10. Pode solicitar orçamento de um produto diretamente.
+11. Pode adicionar o produto à lista de orçamento e continuar navegando.
+12. Pode adicionar mais produtos à lista, como bolo, docinhos e salgados.
+13. Ao finalizar, clica para solicitar orçamento pelo WhatsApp.
+14. É encaminhado ao WhatsApp com mensagem pronta contendo todos os produtos selecionados.
+
+## Lista de orçamento
+A lista de orçamento serve para o visitante reunir produtos de interesse antes de chamar no WhatsApp.
+
+Ela deve permitir:
+- adicionar produto à lista;
+- remover produto da lista;
+- visualizar os produtos selecionados;
+- enviar uma mensagem única pelo WhatsApp com todos os itens.
+
+Ela não deve permitir:
+- pagamento;
+- fechamento automático de pedido;
+- exibição de preços;
+- cálculo de frete;
+- checkout.
 
 ## Fluxo da administradora
 1. Faz login.
@@ -76,8 +98,9 @@ Exemplos:
 9. Atualiza o catálogo sem mexer no código.
 
 ## O que NÃO entra no escopo
-- Carrinho de compras
+- Carrinho de compras com preços
 - Pagamento online
+- Checkout
 - Exibição de preços no site público
 - Área do cliente
 - Acompanhamento de pedido

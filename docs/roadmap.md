@@ -6,6 +6,8 @@ Este roadmap organiza o desenvolvimento da vitrine virtual para confeitaria.
 - O site público funciona como vitrine, não como e-commerce.
 - Não deve aparecer preço no site.
 - O fluxo comercial será por orçamento via WhatsApp.
+- A lista de orçamento não é carrinho de compras.
+- A lista de orçamento serve apenas para reunir produtos de interesse e montar a mensagem do WhatsApp.
 - Campos como sabores/opções e tamanhos são opcionais.
 - Campos opcionais vazios não devem aparecer na interface.
 - Produtos podem ser marcados como destaque para aparecer na Home.
@@ -49,17 +51,20 @@ Issues relacionadas:
 - #26 Criar seção de categoria com filtro de produtos
 - #27 Criar carrossel horizontal de produtos por categoria
 
-## Fase 4 - Detalhe do produto e WhatsApp
+## Fase 4 - Detalhe do produto, lista de orçamento e WhatsApp
 - criar ProductDetails
 - exibir imagem, nome, descrição e observações
 - exibir sabores/opções somente quando existirem
 - exibir tamanhos somente quando existirem
 - não exibir preço
-- criar botão de WhatsApp com mensagem dinâmica baseada no produto selecionado
+- permitir adicionar produto à lista de orçamento
+- permitir remover produto da lista de orçamento
+- criar botão de WhatsApp com mensagem dinâmica baseada em um produto ou em múltiplos produtos selecionados
 
 Issues relacionadas:
 - #28 Criar painel de detalhes do produto selecionado
 - #29 Criar botão de WhatsApp com mensagem dinâmica
+- #43 Criar lista de orçamento com múltiplos produtos
 
 ## Fase 5 - Área administrativa
 - criar tela de login
