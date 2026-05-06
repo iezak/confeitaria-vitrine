@@ -24,6 +24,7 @@ O site não será um e-commerce completo. Ele funcionará como uma vitrine digit
 - Upload de imagens
 - Persistência real dos dados
 - Testes e publicação
+- Deploy na Cloudflare Pages
 
 ## Regra comercial importante
 - O site público não deve exibir preço.
@@ -96,6 +97,16 @@ Ela não deve permitir:
 7. Edita ou remove produtos e categorias.
 8. Faz upload de imagens.
 9. Atualiza o catálogo sem mexer no código.
+
+## Deploy
+O sistema será publicado na Cloudflare Pages.
+
+Configuração prevista:
+- Repositório conectado ao GitHub.
+- Branch de produção: main.
+- Build command: npm run build.
+- Build output directory: dist.
+- Pull requests e branches poderão gerar previews para validação antes do merge.
 
 ## O que NÃO entra no escopo
 - Carrinho de compras com preços
