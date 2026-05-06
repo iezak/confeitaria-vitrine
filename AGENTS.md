@@ -25,6 +25,7 @@ O sistema deve ter:
 - CRUD de produtos
 - upload de imagens
 - persistência real dos dados em etapa posterior
+- deploy na Cloudflare Pages
 
 ## Regras comerciais importantes
 - Não exibir preços no site público.
@@ -85,7 +86,15 @@ O botão de WhatsApp deve permitir:
 - Vite
 - React Router
 - CSS
-- possível deploy futuro na Vercel
+- deploy na Cloudflare Pages
+
+## Deploy
+- Plataforma definida: Cloudflare Pages
+- Repositório conectado ao GitHub
+- Branch de produção: `main`
+- Build command: `npm run build`
+- Build output directory: `dist`
+- Pull requests e branches podem gerar previews para validação
 
 ## Componentes esperados
 - Header
