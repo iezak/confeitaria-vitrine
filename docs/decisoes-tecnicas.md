@@ -4,7 +4,15 @@
 - React com Vite
 - Não usar Create React App
 - React Router para rotas
+- Framer Motion para animações sutis de interface
 - Componentização para Header, Footer, ProductCard, CategorySection, ProductCarousel, ProductDetails, WhatsappButton e lista de orçamento
+
+## UI/UX e animações
+- A interface deve ter aparência moderna, delicada e alinhada à identidade visual da marca.
+- Usar Framer Motion para animações leves e sutis.
+- Não usar animações complexas, exageradas ou chamativas demais.
+- As animações devem melhorar a percepção de fluidez sem prejudicar leitura, navegação ou performance.
+- Bons usos esperados: fade-in em seções, leve movimento de entrada, hover suave em cards, transições no detalhe do produto e abertura discreta da lista de orçamento.
 
 ## Dados e catálogo
 - O catálogo será organizado por categorias.
