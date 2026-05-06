@@ -12,6 +12,7 @@ Este roadmap organiza o desenvolvimento da vitrine virtual para confeitaria.
 - Campos opcionais vazios não devem aparecer na interface.
 - Produtos podem ser marcados como destaque para aparecer na Home.
 - O deploy será feito na Cloudflare Pages.
+- A interface deve usar animações sutis com Framer Motion para parecer mais moderna, sem exageros.
 
 ## Fase 1 - Estrutura e planejamento
 - criar projeto React com Vite
@@ -31,12 +32,14 @@ Issues relacionadas:
 - criar Contato
 - ajustar responsividade inicial
 - preparar a Home para receber produtos em destaque
+- adicionar animações leves em seções principais, quando fizer sentido
 
 Issues relacionadas:
 - #15 Criar página Home com hero e destaques iniciais
 - #16 Criar página Sobre da confeiteira
 - #17 Criar página Contato com WhatsApp e Instagram
 - #41 Exibir produtos em destaque na Home
+- #47 Adicionar animações sutis com Framer Motion
 
 ## Fase 3 - Catálogo interativo
 - criar dados iniciais de categorias e produtos
@@ -45,12 +48,14 @@ Issues relacionadas:
 - criar ProductCarousel
 - exibir produtos por categoria
 - permitir seleção de produto no carrossel
+- aplicar animações suaves nos cards e nas transições, sem prejudicar a usabilidade
 
 Issues relacionadas:
 - #18 Criar arquivo de dados iniciais de categorias e produtos
 - #25 Criar componente ProductCard
 - #26 Criar seção de categoria com filtro de produtos
 - #27 Criar carrossel horizontal de produtos por categoria
+- #47 Adicionar animações sutis com Framer Motion
 
 ## Fase 4 - Detalhe do produto, lista de orçamento e WhatsApp
 - criar ProductDetails
@@ -61,11 +66,13 @@ Issues relacionadas:
 - permitir adicionar produto à lista de orçamento
 - permitir remover produto da lista de orçamento
 - criar botão de WhatsApp com mensagem dinâmica baseada em um produto ou em múltiplos produtos selecionados
+- aplicar transições discretas no detalhe do produto e na lista de orçamento
 
 Issues relacionadas:
 - #28 Criar painel de detalhes do produto selecionado
 - #43 Criar lista de orçamento com múltiplos produtos
 - #29 Criar botão de WhatsApp com mensagem dinâmica
+- #47 Adicionar animações sutis com Framer Motion
 
 ## Fase 5 - Área administrativa
 - criar tela de login
