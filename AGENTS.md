@@ -26,6 +26,7 @@ O sistema deve ter:
 - upload de imagens
 - persistência real dos dados em etapa posterior
 - deploy na Cloudflare Pages
+- animações sutis com Framer Motion
 
 ## Regras comerciais importantes
 - Não exibir preços no site público.
@@ -81,11 +82,19 @@ O botão de WhatsApp deve permitir:
 - montar mensagem automática com os nomes dos produtos selecionados
 - não incluir preços na mensagem automática
 
+## UI/UX e animações
+- A interface deve parecer moderna, delicada e alinhada à identidade visual da marca.
+- Usar Framer Motion para animações leves e sutis.
+- Não usar animações complexas, exageradas ou chamativas demais.
+- As animações não devem prejudicar leitura, navegação, acessibilidade ou performance.
+- Exemplos adequados: fade-in em seções, leve movimento de entrada, hover suave em cards, transição no detalhe do produto e abertura discreta da lista de orçamento.
+
 ## Stack desejada
 - React
 - Vite
 - React Router
 - CSS
+- Framer Motion
 - deploy na Cloudflare Pages
 
 ## Deploy
@@ -131,6 +140,7 @@ O botão de WhatsApp deve permitir:
 11. Issue #43 - Criar lista de orçamento com múltiplos produtos
 12. Issue #29 - Criar botão de WhatsApp com mensagem dinâmica
 13. Issue #41 - Exibir produtos em destaque na Home
+14. Issue #47 - Adicionar animações sutis com Framer Motion
 
 ## Issues administrativas futuras
 - Issue #30 - Criar tela de login administrativo
