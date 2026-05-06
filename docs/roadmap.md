@@ -11,6 +11,7 @@ Este roadmap organiza o desenvolvimento da vitrine virtual para confeitaria.
 - Campos como sabores/opções e tamanhos são opcionais.
 - Campos opcionais vazios não devem aparecer na interface.
 - Produtos podem ser marcados como destaque para aparecer na Home.
+- O deploy será feito na Cloudflare Pages.
 
 ## Fase 1 - Estrutura e planejamento
 - criar projeto React com Vite
@@ -63,8 +64,8 @@ Issues relacionadas:
 
 Issues relacionadas:
 - #28 Criar painel de detalhes do produto selecionado
-- #29 Criar botão de WhatsApp com mensagem dinâmica
 - #43 Criar lista de orçamento com múltiplos produtos
+- #29 Criar botão de WhatsApp com mensagem dinâmica
 
 ## Fase 5 - Área administrativa
 - criar tela de login
@@ -89,8 +90,15 @@ Issues relacionadas:
 - implementar persistência real de categorias e produtos
 - garantir que os dados persistidos não incluam preço público
 - executar testes finais do fluxo do cliente e do administrador
-- publicar o sistema
+- publicar o sistema na Cloudflare Pages
 - registrar evidências para a faculdade
+
+Configuração prevista de deploy:
+- Plataforma: Cloudflare Pages
+- Repositório conectado ao GitHub
+- Branch de produção: `main`
+- Build command: `npm run build`
+- Build output directory: `dist`
 
 Issues relacionadas:
 - #36 Implementar upload de imagem para produtos
