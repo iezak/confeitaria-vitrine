@@ -10,6 +10,7 @@ Use este conteúdo como referência do que já existe, do que já foi concluído
 - docs/decisoes-tecnicas.md
 - docs/estado-atual.md
 - .github/workflows/ci.yml
+- AGENTS.md
 - GitHub Project organizado
 - milestones criadas
 - branch `main` protegida
@@ -29,6 +30,15 @@ Use este conteúdo como referência do que já existe, do que já foi concluído
 - A lista de orçamento não é carrinho de compras: não tem preço, pagamento, checkout ou frete.
 - A lista de orçamento serve para enviar uma única mensagem pelo WhatsApp com os produtos selecionados.
 - Área administrativa permitirá gerenciar categorias, produtos e imagens.
+- O deploy será feito na Cloudflare Pages.
+
+## Deploy definido
+- Plataforma: Cloudflare Pages
+- Repositório conectado ao GitHub
+- Branch de produção: `main`
+- Build command: `npm run build`
+- Build output directory: `dist`
+- Pull requests e branches poderão gerar previews para validação antes do merge.
 
 ## O que já foi concluído
 - #11 Criar projeto React e estrutura inicial de pastas
