@@ -42,15 +42,80 @@ Use este conteúdo como referência do que já existe, do que já foi concluído
 
 ## O que já foi concluído
 - #11 Criar projeto React e estrutura inicial de pastas
+- #12 Configurar rotas principais da aplicação
+- #14 Criar layout base com Header e Footer
+
+---
+
+## Issue #12 - Configurar rotas principais da aplicação
+
+Status: concluída
+
+O que foi feito:
+- Instalação do `react-router-dom`.
+- Configuração do `BrowserRouter` no `main.jsx`.
+- Criação das páginas iniciais: `Home.jsx`, `Sobre.jsx`, `Contato.jsx`, `Catalogo.jsx`.
+- Configuração das rotas no `App.jsx` com `Routes` e `Route`.
+
+Arquivos principais alterados:
+- `src/main.jsx`
+- `src/App.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/Sobre.jsx`
+- `src/pages/Contato.jsx`
+- `src/pages/Catalogo.jsx`
+- `package.json`
+
+Validação:
+- `npm run build`: executado com sucesso.
+- `npm run lint`: executado com sucesso.
+- Teste manual: navegação entre as 4 rotas validada no navegador.
+
+Demandas não previstas:
+- Nenhuma demanda nova identificada neste momento.
+
+Observações:
+- Estrutura de rotas pronta para receber o layout base com Header e Footer.
+
+---
+
+## Issue #14 - Criar layout base com Header e Footer
+
+Status: concluída
+
+O que foi feito:
+- Criação do `Header.jsx` com nome da confeitaria, links de navegação e links para WhatsApp e Instagram.
+- Criação do `Footer.jsx` com nome, navegação, contato e créditos do desenvolvedor.
+- Criação do `Layout.jsx` com `Header`, `Outlet` e `Footer`.
+- Atualização do `App.jsx` para usar o `Layout` como rota pai com rotas aninhadas.
+
+Arquivos principais criados ou alterados:
+- `src/components/Header/Header.jsx`
+- `src/components/Footer/Footer.jsx`
+- `src/components/Layout/Layout.jsx`
+- `src/App.jsx`
+
+Validação:
+- `npm run build`: executado com sucesso.
+- `npm run lint`: executado com sucesso.
+- Teste manual: Header e Footer aparecem em todas as páginas; navegação entre rotas funciona sem recarregar a página.
+
+Demandas não previstas:
+- Nenhuma demanda nova identificada neste momento.
+
+Observações:
+- Header e Footer estão com conteúdo real (nome Luxo Doce, WhatsApp e Instagram da confeitaria).
+- Visual, cores e estilos serão ajustados em issues futuras.
+- Imagens/ícones do Header serão adicionados quando disponíveis.
+
+---
 
 ## Próximas issues prioritárias
 Ordem recomendada imediata:
-1. #12 Configurar rotas principais da aplicação
-2. #14 Criar layout base com Header e Footer
-3. #15 Criar página Home com hero e destaques iniciais
-4. #16 Criar página Sobre da confeiteira
-5. #17 Criar página Contato com WhatsApp e Instagram
-6. #18 Criar arquivo de dados iniciais de categorias e produtos
+1. #15 Criar página Home com hero e destaques iniciais
+2. #16 Criar página Sobre da confeiteira
+3. #17 Criar página Contato com WhatsApp e Instagram
+4. #18 Criar arquivo de dados iniciais de categorias e produtos
 
 ## Próxima sequência após a #18
 Depois de concluir a #18, seguir esta ordem:
@@ -61,6 +126,7 @@ Depois de concluir a #18, seguir esta ordem:
 5. #43 Criar lista de orçamento com múltiplos produtos
 6. #29 Criar botão de WhatsApp com mensagem dinâmica
 7. #41 Exibir produtos em destaque na Home
+8. #47 Adicionar animações sutis com Framer Motion
 
 ## Próxima sequência da área administrativa
 Depois do catálogo interativo:
@@ -79,5 +145,4 @@ Etapa final do projeto:
 4. #39 Publicar o sistema e registrar evidências para a faculdade
 
 ## Próximo passo esperado agora
-- Começar pela issue #12
-- Antes de implementar, validar rapidamente o entendimento do contexto atual do projeto
+- Issue #15 - Criar página Home com hero e destaques iniciais.
