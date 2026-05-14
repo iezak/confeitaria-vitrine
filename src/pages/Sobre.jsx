@@ -5,70 +5,66 @@ function Sobre() {
     <main>
       <section>
         <div>
-          <p>SOBRE</p>
-          <h1>Nossa historia é feita</h1>
-          <p>de amor e açucar</p>
+          <p>Nossa História</p>
+          <h1>Uma história que começou com amor pela confeitaria</h1>
           <p>
-            A Luxo Doce nasceu do sonho de transformar momentos simples em
-            lembranças inesqueciveis. Aqui, cada detalhe é feito com carinho,
-            ingredientes selecionados e muito amor.
+            A Luxo Doce nasceu da paixão por transformar ingredientes simples em
+            obras de arte comestíveis. Começamos em uma pequena cozinha, com
+            receitas de família e o sonho de levar doçura artesanal para
+            momentos especiais.
           </p>
           <p>
-            Nosso propósito é levar sabor, beleza e afeto para sua vida, seja em
-            uma comemoração especial ou naquele momento que merece ser doce.
+            Hoje, cada criação carrega a mesma essência do início: dedicação,
+            ingredientes cuidadosamente selecionados e aquele toque de carinho
+            que só a confeitaria artesanal pode oferecer.
+          </p>
+          <p>
+            Acreditamos que um bolo bem feito é mais do que sobremesa — é uma
+            declaração de amor, uma forma de celebrar a vida e criar memórias
+            doces e inesquecíveis.
           </p>
           <Link to="/catalogo">Conheça nossos produtos</Link>
         </div>
         <div>{/* Vou adicionar a imegem depois */}</div>
       </section>
       <section>
-        <p>O QUE NOS MOVE</p>
-        <h2>Mais que doces, criamos memórias</h2>
+        <h2>Nosso Propósito</h2>
+        <p>
+          Transformar ingredientes em emoções, celebrações em memórias e cada
+          mordida em um momento de felicidade
+        </p>
         <div>
-          <h3>Feito com amor</h3>
-          <p>Cada receita carregada carinho em cada etapa do preparo.</p>
-        </div>
-        <div>
-          <h3>Ingredientes selecionados</h3>
+          <h3>Afeto em cada receita</h3>
           <p>
-            Utilizamos ingredientes de qualidade para garantir sabor e frescor.
+            Colocamos amor real em cada etapa, como fazemos para nossa família.
           </p>
         </div>
         <div>
-          <h3>Beleza que encanta</h3>
-          <p>Acabamentos delicados que transforman qualque ocasião</p>
+          <h3>Excelência artesanal</h3>
+          <p>
+            Técnica profissional com alma caseira. Qualidade sem abrir mão do
+            carinho.
+          </p>
         </div>
         <div>
-          <h3>Atendimento próximo</h3>
+          <h3>Ingredientes nobres</h3>
           <p>
-            Acolhimento e atenção do inicio ao fim para você se sentir unico.
+            Selecionamos os melhores ingredientes para um sabor autêntico e
+            memorável.
           </p>
         </div>
       </section>
       <section>
         <div>
-          <p>REGIÃO DE ATENDIMENTO</p>
-          <h2>Onde espalhamos doçura</h2>
+          <p>Onde Estamos</p>
+          <h2>Região de Atendimento</h2>
           <p>
-            Atendemos Quatro Barras e região, levando nossos doces e bolos para
-            tornar momentos especiais ainda mais inesqueciveis. Para outras
-            localidades, consulte disponibilidade pelo WhatsApp.
+            Atendemos em Quatro barras e região, incluindo Campina grande do
+            sul, Colombo, Bairro Alto e Piraquara.
           </p>
+          <p>Encomendas com antecedência mínima de 3 dias úteis</p>
         </div>
-        <div>
-          <div>
-            <p>Quatro Barras</p>
-          </div>
-          <div>
-            <p>Campina grande do sul</p>
-          </div>
-          <div>
-            <p>Colombo</p>
-          </div>
-          <div>
-            <p>Piraguara</p>
-          </div>
-        </div>
+        <div>{/* Vou adicionar a imegem depois */}</div>
       </section>
     </main>
   );
