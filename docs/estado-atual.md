@@ -110,9 +110,37 @@ Observações:
 
 ---
 
+---
+
+## Issue #15 - Criar página Home com hero e destaques iniciais
+
+Status: concluída
+
+O que foi feito:
+- Seção Hero com tagline, título, subtítulo, descrição e dois botões (Ver produtos e Fazer orçamento).
+- Seção de diferenciais com 4 blocos (Feito com carinho, Ingredientes selecionados, Personalizado, Encantamento).
+- Seção de destaques reservada com placeholder para a issue #41.
+
+Arquivos principais alterados:
+- `src/pages/Home.jsx`
+
+Validação:
+- `npm run build`: executado com sucesso.
+- `npm run lint`: executado com sucesso.
+- Teste manual: página renderiza corretamente com Header e Footer.
+
+Demandas não previstas:
+- Nenhuma demanda nova identificada neste momento.
+
+Observações:
+- Imagens do Hero e ícones dos diferenciais serão adicionados depois.
+- Produtos em destaque serão exibidos na seção reservada na issue #41.
+
+---
+
 ## Próximas issues prioritárias
 Ordem recomendada imediata:
-1. #15 Criar página Home com hero e destaques iniciais
+1. #16 Criar página Sobre da confeiteira
 2. #16 Criar página Sobre da confeiteira
 3. #17 Criar página Contato com WhatsApp e Instagram
 4. #18 Criar arquivo de dados iniciais de categorias e produtos

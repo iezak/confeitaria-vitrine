@@ -42,10 +42,28 @@ function Home() {
         </div>
       </section>
       <section>
-        <p>NOSSOS DESTAQUES</p>
+        <h2>Nossas Categorias</h2>
+        <p>
+          Descubra nossa seleção artesanal, feita com os melhores ingredientes e
+          muito carinho
+        </p>
+        {/* vou adicionar as div com as categorias depois */}
+      </section>
+      <section>
+        <p>Destaques</p>
         <h2>Escolha o seu favorito</h2>
-        <p>Doces e bolos para todos os momentos</p>
+        <p>Nossos produtos mais amados, preparados com carinho especial</p>
         {/* Produtos em destaque serão exibidos aqui — issue #41 */}
+      </section>
+      <section>
+        <h2>Vamos criar algo especial?</h2>
+        <p>
+          Entre em contato pelo WhatsApp e conte-nos sobre seu evento. Será um
+          prazer adoçar seu momento.
+        </p>
+        <a href="https://wa.me/5541997792875" target="_blank">
+          Falar pelo WhatsApp
+        </a>
       </section>
     </main>
   );
