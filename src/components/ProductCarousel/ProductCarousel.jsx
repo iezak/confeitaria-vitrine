@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ProductCard from "../ProductCard/ProductCard";
 
-function ProductCarousel({ produtos }) {
+function ProductCarousel({ produtos, onSelecionado }) {
   const [selecionado, setSelecionado] = useState(produtos[0]?.id);
 
   return (
@@ -13,7 +13,10 @@ function ProductCarousel({ produtos }) {
           descricao={produto.descricao}
           imagem={produto.imagem}
           selecionado={produto.id === selecionado}
-          onClick={() => setSelecionado(produto.id)}
+          onClick={() => {
+            setSelecionado(produto.id);
+            onSelecionado(produto);
+          }}
         />
       ))}
     </div>
