@@ -1,6 +1,6 @@
-function ProductCard({ nome, descricao, imagem, selecionado }) {
+function ProductCard({ nome, descricao, imagem, selecionado, onClick }) {
   return (
-    <div>
+    <div onClick={onClick}>
       <h3>{nome}</h3>
       <p>{descricao}</p>
       <img src={imagem} alt={nome} />

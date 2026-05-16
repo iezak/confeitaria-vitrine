@@ -1,19 +1,12 @@
-import ProductCard from "../ProductCard/ProductCard";
+import ProductCarousel from "../ProductCarousel/ProductCarousel";
 
-function CategorySection({ categoria, produtos }) {
+function CategorySection({ categoria, produtos, onSelecionado }) {
   const lista = produtos.filter((item) => item.categoriaId === categoria.id);
 
   return (
     <div>
       <h2>{categoria.nome}</h2>
-      {lista.map((produto) => (
-        <ProductCard
-          key={produto.id}
-          nome={produto.nome}
-          descricao={produto.descricao}
-          imagem={produto.imagem}
-        />
-      ))}
+      <ProductCarousel produtos={lista} onSelecionado={onSelecionado} />
     </div>
   );
 }
