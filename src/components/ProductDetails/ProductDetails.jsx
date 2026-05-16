@@ -1,6 +1,11 @@
+import { useContext } from "react";
+import { OrcamentoContext } from "../../context/OrcamentoContext";
+
 function ProductDetails({ produto }) {
   const temSabores = produto.sabores && produto.sabores.length > 0;
   const temTamanhos = produto.tamanhos && produto.tamanhos.length > 0;
+
+  const { adicionar } = useContext(OrcamentoContext);
 
   return (
     <div>
@@ -28,9 +33,9 @@ function ProductDetails({ produto }) {
             ))}
           </div>
         )}
-        <a href="https://wa.me/5541997792875" target="_blank">
-          Solicitar orçamento
-        </a>
+        <button onClick={() => adicionar(produto)}>
+          Adicionar ao orçamento
+        </button>
       </div>
     </div>
   );
