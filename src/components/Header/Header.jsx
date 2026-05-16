@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
+import { OrcamentoContext } from "../../context/OrcamentoContext";
+import { useContext } from "react";
 
 function Header() {
+  const { lista } = useContext(OrcamentoContext);
+  const temLista = lista && lista.length > 0;
+
   return (
     <header>
       {/* Vou adicionar a imegem depois */}
@@ -21,6 +26,7 @@ function Header() {
           {/* Vou adicionar a imegem depois */}
           Instagram
         </a>
+        {temLista && <Link to="/orcamento">Orçamento ({lista.length})</Link>}
       </div>
     </header>
   );
