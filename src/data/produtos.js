@@ -14,6 +14,7 @@ export const produtos = [
     nome: "Bolo de morango",
     descricao:
       "Bolo leve e delicado, com morangos frescos e recheio cremoso para deixar qualquer ocasião mais especial.",
+    tamanhos: ["Pequeno (10 fatias)", "Médio (15 fatias)", "Grande (20 fatias)"],
     destaque: true,
     ativo: true,
   },
@@ -23,6 +24,7 @@ export const produtos = [
     nome: "Bolo de Oreo",
     descricao:
       "Bolo premium com sabor marcante de Oreo, recheio cremoso e acabamento especial para quem ama chocolate e biscoito.",
+    tamanhos: ["Pequeno (10 fatias)", "Médio (15 fatias)", "Grande (20 fatias)"],
     destaque: true,
     ativo: true,
   },
@@ -41,6 +43,7 @@ export const produtos = [
     nome: "Brigadeiro de chocolate",
     descricao:
       "Brigadeiro tradicional, cremoso e feito com carinho, ideal para festas, lembranças e momentos de pura doçura.",
+    sabores: ["Chocolate ao leite", "Meio amargo", "Chocolate branco"],
     destaque: true,
     ativo: true,
   },
@@ -50,6 +53,7 @@ export const produtos = [
     nome: "Brigadeiro de Ferrero",
     descricao:
       "Brigadeiro gourmet inspirado no sabor Ferrero, com chocolate, cremosidade e toque especial de avelã.",
+    sabores: ["Ferrero Rocher", "Avelã com chocolate", "Nutella"],
     destaque: true,
     ativo: true,
   },
@@ -68,6 +72,7 @@ export const produtos = [
     nome: "Empadão de frango",
     descricao:
       "Empadão salgado com massa macia e recheio cremoso de frango, ideal para encontros, cafés e comemorações.",
+    sabores: ["Frango", "Frango com catupiry", "Frango com palmito"],
     destaque: false,
     ativo: true,
   },
